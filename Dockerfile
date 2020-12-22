@@ -5,7 +5,8 @@ ARG docker_tag
 ARG image_name
 
 COPY requirements.txt /tmp/requirements.txt
-RUN pip3 install --upgrade -r /tmp/requirements.txt
+RUN apk add --no-cache libxml2 libxml2-dev libxslt-dev jpeg-dev
+RUN pip3 install --no-cache-dir --upgrade -r /tmp/requirements.txt
 RUN pip3 freeze
 
 LABEL org.label-schema.name="$image_name" \

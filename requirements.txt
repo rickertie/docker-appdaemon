@@ -1,16 +1,7 @@
-humanize==2.4.0
-onvif-zeep==0.2.12
-Pillow==6.0.0
-python-dateutil==2.8.0
+humanize
+onvif-zeep
+Pillow
+python-dateutil
 requests-toolbelt
 requests
-tzlocal==1.5.1
-# dependencies of onvif-zeep
-zeep==3.4.0
-# dependencies of zeep
-appdirs==1.4.3
-attrs==19.1.0
-cached-property==1.5.1
-defusedxml==0.6.0
-isodate==0.6.0
-lxml==4.3.4
+tzlocal
