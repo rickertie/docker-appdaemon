@@ -5,3 +5,5 @@ python-dateutil
 requests-toolbelt
 requests
 tzlocal
+spotipy
+numpy
